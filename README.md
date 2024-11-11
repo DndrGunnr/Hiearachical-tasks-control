@@ -6,6 +6,11 @@ This was done through a quadratic programming approach, using a QP solver to fin
 This robot was controllable through 4 variables: the speed of the 2 wheels + tilt and pan of the mounted camera.  
 
 
+
+
+https://github.com/user-attachments/assets/8a17fe22-858e-47ae-aef5-904911c555ab
+
+
 # IDE Configuration for CMake packages (ROS 1 / ROS 2 / non-ROS)
 
 A script to generate QtCreator and VS Code configuration file for CMake, ROS 1 and ROS 2 projects
