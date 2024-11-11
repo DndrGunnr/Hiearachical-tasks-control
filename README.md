@@ -1,3 +1,11 @@
+# Hierarchical tasks control  
+This exercise was about implementing a hierarchical task control algorithm for a pioneer robot to satisfy a set of constraint.  
+The proposed solution allows to satisfy constraints on wheel velocities (maximum angular velocity) and visibility constraint of a sphere placed in the environment, while reaching a desired position on the plane.  
+\
+This was done through a quadratic programming approach, using a QP solver to find the optimal control input for the robot.
+This robot was controllable through 4 variables: the speed of the 2 wheels + tilt and pan of the mounted camera.  
+
+
 # IDE Configuration for CMake packages (ROS 1 / ROS 2 / non-ROS)
 
 A script to generate QtCreator and VS Code configuration file for CMake, ROS 1 and ROS 2 projects
